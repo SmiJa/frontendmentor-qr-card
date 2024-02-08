@@ -32,9 +32,7 @@ body {
 
 .imgWrap {
   width: 100%;
-  aspect-ratio: 1;
-
-  
+  aspect-ratio: 1;  
 }
 
 img {
@@ -44,15 +42,15 @@ img {
 
 .textWrap {
   padding: 15px 8px 0;
+}
 
-  h1 {
-    color: hsl(218, 44%, 22%);
-    font-weight: 700;
-    font-size: 1.3rem;
-    padding: 8px 5px;
-  }
+.textWrap > h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 8px 5px;
+}
 
-  p {
-    padding: 8px 5px;
-  }
+.textWrap > p {
+  padding: 8px 5px;
 }
