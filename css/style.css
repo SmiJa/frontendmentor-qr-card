@@ -34,10 +34,12 @@ body {
   width: 100%;
   aspect-ratio: 1;
 
-  img {
-    width: 100%;
-    border-radius: 15px;
-  }
+  
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
 }
 
 .textWrap {
